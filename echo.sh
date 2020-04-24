@@ -1,3 +1,3 @@
-#!/binbash
+#!/bin/bash
 
 echo "hello world"
