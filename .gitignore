@@ -1,23 +1,63 @@
-# Compiled class file
-*.class
+# === 系统文件 ===
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Log file
+# === IDE & 编辑器 ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# === 临时文件 ===
+*.tmp
+*.bak
+~$*
+
+# === 日志 ===
 *.log
 
-# BlueJ files
+# === 依赖目录 ===
+node_modules/
+vendor/
+
+# === 环境变量 & 密钥 ===
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# === 缓存 & 构建产物 ===
+dist/
+build/
+*.pyc
+__pycache__/
+.cache/
+
+# === 测试覆盖率 ===
+coverage/
+.nyc_output/
+
+# === 压缩包 ===
+*.zip
+*.rar
+*.tar.gz
+*.tar
+*.7z
+
+# === BlueJ files ===
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# === Java ===
+*.class
 *.jar
 *.war
 *.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+.mtj.tmp/
 hs_err_pid*
